@@ -1,0 +1,127 @@
+*{
+    list-style: none;
+
+    a{
+        text-decoration: none;
+    
+    }
+}
+
+/* /* Header Starts */ 
+
+
+    /* Upper Header Starts */
+    .uper-header{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        a{
+            color: black;
+        }
+
+        /* Span */
+        span{
+            font-family: Brush Script MT, Brush Script Std, cursive;
+        }
+    }
+
+    #items{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+
+        /* list items */
+        li{
+            list-style: none;     
+        }
+
+        #search{
+            width: 30px;
+        }
+    }
+
+    /* Uper Header Ends */
+
+    /* Lower Header Starts */
+    .lower-header{
+      
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .hr{
+        border: 1px solid black;
+    }
+    /* Lower Header Ends */
+
+/* Header Ends */
+
+
+/* Footer Starts */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+    /* Footer Upper Part Start */ 
+    .upper-footer{
+      
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+       
+    }
+
+    .links{
+        display: flex;
+        gap: 0px;
+       
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        /* Vertical Borders */
+        li{
+            padding: 0 100px;
+            border-right: 1px white solid;
+        }
+
+        li:last-child {
+            border-right: none;
+          }
+        /* Vertical Borders */
+    }
+    /* Footer Upper Part Ends */
+
+    /* Middle Footer Starts */
+    .middle-footer{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    /* Middle Footer Ends */
+
+
+    /* Lower Footer Starts */
+    .lower-footer{
+        color: white ;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    /* Lower Footer Ends */
+
+/* Footer Ends */

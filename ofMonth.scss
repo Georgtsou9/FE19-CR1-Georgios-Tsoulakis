@@ -1,0 +1,77 @@
+@import "header_footer";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+/* Main Starts */
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    border-radius: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    background-color:rgba(245, 222, 179, 0.529);
+
+    h1{
+        font-size: 100px;
+    }
+}
+
+.video{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Ingredients */
+.ingredients{
+ 
+
+    margin-top: 30px;
+
+}
+
+.list-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    ul{
+        font-weight: bold;
+    }
+}
+
+.besamel{
+    align-self: center;
+}
+
+/* Methode */
+.methode{
+   padding: 10px;
+   
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+
+
+    h3{
+        text-align: left;
+    }
+}
+
+/* Main Ends */

@@ -1,0 +1,168 @@
+* {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+
+/* /* Header Starts */
+/* Upper Header Starts */
+.uper-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  /* Span */
+}
+.uper-header a {
+  color: black;
+}
+.uper-header span {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* list items */
+}
+#items li {
+  list-style: none;
+}
+#items #search {
+  width: 30px;
+}
+
+/* Uper Header Ends */
+/* Lower Header Starts */
+.lower-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hr {
+  border: 1px solid black;
+}
+
+/* Lower Header Ends */
+/* Header Ends */
+/* Footer Starts */
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+}
+
+/* Footer Upper Part Start */
+.upper-footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 0px;
+  /* Vertical Borders */
+  /* Vertical Borders */
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.links li {
+  padding: 0 100px;
+  border-right: 1px white solid;
+}
+.links li:last-child {
+  border-right: none;
+}
+
+/* Footer Upper Part Ends */
+/* Middle Footer Starts */
+.middle-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Middle Footer Ends */
+/* Lower Footer Starts */
+.lower-footer {
+  color: white;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* Lower Footer Ends */
+/* Footer Ends */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Main Starts */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 80%;
+  border-radius: 50px;
+  border: 2px solid black;
+  text-align: center;
+  color: black;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(245, 222, 179, 0.529);
+}
+.container h1 {
+  font-size: 100px;
+}
+
+.video {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Ingredients */
+.ingredients {
+  margin-top: 30px;
+}
+
+.list-flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.list-flex ul {
+  font-weight: bold;
+}
+
+.besamel {
+  align-self: center;
+}
+
+/* Methode */
+.methode {
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+}
+.methode h3 {
+  text-align: left;
+}
+
+/* Main Ends *//*# sourceMappingURL=ofMonth.css.map */
